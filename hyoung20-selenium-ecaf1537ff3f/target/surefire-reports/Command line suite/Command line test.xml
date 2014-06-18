@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="PC20167" name="pageobject.exercise.AmazonSeleniumTest" tests="11" failures="1" timestamp="4 Dec 2013 17:34:51 GMT" time="126.012" errors="0">
+  <testcase name="getSearchResultsAndReviews" time="19.448" classname="pageobject.exercise.AmazonSeleniumTest"/>
+  <testcase name="testAddToCartSignInPrompt" time="15.669" classname="pageobject.exercise.AmazonSeleniumTest"/>
+  <testcase name="testCartCount" time="6.77" classname="pageobject.exercise.AmazonSeleniumTest"/>
+  <testcase name="testDailyDeals" time="11.808" classname="pageobject.exercise.AmazonSeleniumTest"/>
+  <testcase name="testDailyDealsCartButton" time="8.591" classname="pageobject.exercise.AmazonSeleniumTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;Add to cart&amp;gt; but was:&amp;lt;null&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<Add to cart> but was:<null>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at pageobject.exercise.AmazonSeleniumTest.testDailyDealsCartButton(AmazonSeleniumTest.java:176)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:61)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:144)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:169)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testLogIn" time="11.739" classname="pageobject.exercise.AmazonSeleniumTest"/>
+  <testcase name="testRegistration" time="7.083" classname="pageobject.exercise.AmazonSeleniumTest"/>
+  <testcase name="testResizeBrowser" time="6.898" classname="pageobject.exercise.AmazonSeleniumTest"/>
+  <testcase name="testSearch" time="15.599" classname="pageobject.exercise.AmazonSeleniumTest"/>
+  <testcase name="testSignInPage" time="8.549" classname="pageobject.exercise.AmazonSeleniumTest"/>
+  <testcase name="testSignUp" time="7.287" classname="pageobject.exercise.AmazonSeleniumTest"/>
+</testsuite>

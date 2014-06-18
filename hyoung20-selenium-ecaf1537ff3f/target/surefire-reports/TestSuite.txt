@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 126.628 sec <<< FAILURE!
+testDailyDealsCartButton(pageobject.exercise.AmazonSeleniumTest)  Time elapsed: 8.601 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Add to cart> but was:<null>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at pageobject.exercise.AmazonSeleniumTest.testDailyDealsCartButton(AmazonSeleniumTest.java:176)
+
